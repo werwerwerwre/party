@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Як взяти участь?</title>
+    <style>
+        /* Загальні стилі */
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #ff9aa2, #ff6f61);
+            color: #fff;
+            overflow-x: hidden;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(5px);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: #fff;
+        }
+
+        /* Герой-секція */
+        .hero {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 70vh;
+            text-align: center;
+            background: url('valentine-bg.jpg') center/cover no-repeat;
+        }
+        .hero h2 {
+            font-size: 2em;
+            margin: 20px 0;
+        }
+        .hero img {
+            width: 150px;
+            height: 150px;
+            margin-top: 20px;
+            background: #fff;
+            border-radius: 10px;
+        }
+
+        /* Секція контенту */
+        .content {
+            padding: 40px 20px;
+            background: rgba(255, 255, 255, 0.2);
+            margin: 0 auto;
+            max-width: 800px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+        .content h3 {
+            margin: 0 0 20px;
+            font-size: 1.8em;
+        }
+        .content p {
+            line-height: 1.6;
+            font-size: 1em;
+            color: #ffe0e6;
+        }
+
+        /* Підвал */
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: rgba(0, 0, 0, 0.5);
+            color: #fff;
+            font-size: 0.8em;
+        }
+        footer a {
+            color: #ff9aa2;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Адаптивність */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2em;
+            }
+            .hero h2 {
+                font-size: 1.5em;
+            }
+            .content h3 {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Як взяти участь?</h1>
+    </header>
+
+    <section class="hero">
+        <h2>Скануйте QR-код для участі!</h2>
+        <img src="qr-code.png" alt="QR-код для участі">
+    </section>
+
+    <section class="content">
+        <h3>Умови участі</h3>
+        <p>Щоб взяти участь у нашому конкурсі до Дня Святого Валентина, просто перейдіть за QR-кодом та зареєструйтесь на сайті. Вартість квитка становить 150 грн.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Як взяти участь? Усі права захищено. <a href="#">Політика конфіденційності</a></p>
+    </footer>
+</body>
+</html>
